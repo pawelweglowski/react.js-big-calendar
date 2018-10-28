@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* line 1, /home/pawel/Pulpit/CodersLab/Moduł 06/Log-in-form/sass/style.scss */
+body {
+  background-color: #16191E;
+  font-size: 20px;
+  text-align: center; }
+
+/* line 6, /home/pawel/Pulpit/CodersLab/Moduł 06/Log-in-form/sass/style.scss */
+#container {
+  background-color: #2e3137;
+  width: 300px;
+  padding: 80px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 10px; }
+
+/* line 14, /home/pawel/Pulpit/CodersLab/Moduł 06/Log-in-form/sass/style.scss */
+input[type=text],
+[type=password] {
+  width: 300px;
+  background-color: #2e3137;
+  color: #666;
+  border: 1px solid #999;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 10px; }
+
+/* line 28, /home/pawel/Pulpit/CodersLab/Moduł 06/Log-in-form/sass/style.scss */
+[type=password] {
+  margin-bottom: 20px; }
+
+/* line 31, /home/pawel/Pulpit/CodersLab/Moduł 06/Log-in-form/sass/style.scss */
+progress {
+  width: 280px;
+  height: 5px;
+  background-color: #000;
+  visibility: hidden; }
+
+/* line 37, /home/pawel/Pulpit/CodersLab/Moduł 06/Log-in-form/sass/style.scss */
+input[type=text]:focus,
+input[type=password]:focus {
+  border: 1px solid aqua;
+  background-color: #2e3137;
+  color: #999; }
+
+/* line 43, /home/pawel/Pulpit/CodersLab/Moduł 06/Log-in-form/sass/style.scss */
+input[type=submit] {
+  width: 300px;
+  background-color: aqua;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 10px;
+  border: none;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 30px; }
+
+/* line 57, /home/pawel/Pulpit/CodersLab/Moduł 06/Log-in-form/sass/style.scss */
+input[type=submit]:hover {
+  background-color: #666; }
+
+/*# sourceMappingURL=style.css.map */

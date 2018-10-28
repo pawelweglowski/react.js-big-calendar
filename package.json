@@ -1,0 +1,34 @@
+{
+  "name": "backtoeden",
+  "version": "1.0.0",
+  "description": "Aplikacja ogrodnicza na początek działająca na zasadzie małej encyklopedii a potem podpowiadająca różne triki ogrodnicze na podstawie np. jakiegoś weather api.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.7.2",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^2.1.5"
+  }
+}
