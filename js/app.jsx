@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Loginform from './components/loginform.jsx';
+import Bigcalendar from './components/bigcalendar.jsx';
 
 
 
@@ -12,13 +12,11 @@ class App extends React.Component{
             
         }
     }
-    
-    
         
     render() {
         return (
             <div>
-                <Loginform />
+                <Bigcalendar />
                 
             </div>
             
